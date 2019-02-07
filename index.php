@@ -27,6 +27,7 @@
             
             <!-- Sign Up Section Form -->
             <form id="sign-up-form">
+            <label for=""></label>
             </form>
         </section>
     </header>

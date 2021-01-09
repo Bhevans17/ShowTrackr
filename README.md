@@ -7,5 +7,7 @@ A sandbox enviorment for me to showcase/practice css flexbox.
 Contributors names and contact info
 
 Brenden Evans
+
 website: https://www.brendenevans.com/
+
 linkedin: https://www.linkedin.com/in/brendenhevans/

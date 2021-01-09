@@ -62,12 +62,35 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5%;
-  width: 100%;
+  padding: 5% 0;
 }
 
 #contact form {
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  background-color: lightgrey;
+  padding: 2.5%;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-info {
+  padding: 0 10%;
+}
+
+.footer-links,
+.footer-info {
+  width: 50%;
 }

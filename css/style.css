@@ -45,7 +45,6 @@ main {
 }
 
 /* About */
-
 #about {
   display: flex;
   align-items: center;
@@ -56,4 +55,19 @@ main {
 .about-image {
   width: 50%;
   padding: 5%;
+}
+
+/* Contact */
+#contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+  width: 100%;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }

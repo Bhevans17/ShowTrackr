@@ -65,10 +65,37 @@ main {
   padding: 5% 0;
 }
 
+#contact-form-wrapper {
+  width: 100%;
+}
+
 #contact form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+
+#contact form input {
   width: 100%;
+  border-radius: 25px;
+  padding: 10px;
+  border: 1px solid lightgrey;
+}
+
+#contact form textarea {
+  width: 100%;
+  border-radius: 25px;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  resize: none;
+}
+
+#contact form button {
+  width: 100%;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 /* Footer */
@@ -115,6 +142,18 @@ footer {
 
   .main-content,
   .main-image {
+    width: 100%;
+  }
+
+  /* About Main */
+  #about {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+  }
+
+  .about-content,
+  .about-image {
     width: 100%;
   }
 }

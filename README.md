@@ -1,4 +1,4 @@
-# Flexbox Practice
+# CSS Flexbox Practice
 
 A sandbox enviorment for me to showcase/practice css flexbox.
 

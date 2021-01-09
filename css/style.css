@@ -94,8 +94,8 @@ footer {
   width: 50%;
 }
 
-/* Mobile Navigation */
 @media only screen and (max-width: 600px) {
+  /* Mobile Navigation */
   header {
     display: flex;
     justify-content: center;
@@ -104,5 +104,17 @@ footer {
 
   header ul li {
     padding: 0 5px;
+  }
+
+  /* Mobile Main */
+  main {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+  }
+
+  .main-content,
+  .main-image {
+    width: 100%;
   }
 }

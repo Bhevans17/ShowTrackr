@@ -3,6 +3,11 @@
   margin: 0;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 /* Navigation */
 header {
   display: flex;

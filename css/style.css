@@ -43,3 +43,17 @@ main {
   width: 50%;
   padding: 5%;
 }
+
+/* About */
+
+#about {
+  display: flex;
+  align-items: center;
+  background-color: lightblue;
+}
+
+.about-content,
+.about-image {
+  width: 50%;
+  padding: 5%;
+}

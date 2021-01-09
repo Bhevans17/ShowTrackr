@@ -93,3 +93,16 @@ footer {
 .footer-info {
   width: 50%;
 }
+
+/* Mobile Navigation */
+@media only screen and (max-width: 600px) {
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header ul li {
+    padding: 0 5px;
+  }
+}
